@@ -1,4 +1,4 @@
-package aula2;
+package ficha02;
 
 public class Automovel {
     private String matricula;

@@ -1,4 +1,4 @@
-package aula1.exercicio1;
+package ficha01.exercicio1;
 
 public class Cilindro { //classes sempre c/letra maiuscula, permitem criar objeto
     private double raio;

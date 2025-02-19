@@ -1,4 +1,4 @@
-package aula2;
+package ficha02;
 
 public class MainAutomovel {
     public static void main(String[] args) {
