@@ -11,7 +11,7 @@ public class Automovel {
 
     private static int totalAutomoveis = 0;
 
-    public Automovel() {
+    public Automovel() { // construtor vazio, por omissao (nao conhecemos nada do objeto)
         matricula = MATRICULA_POR_OMISSAO;
         marca = MARCA_POR_OMISSAO;
         cilindrada = CILINDRADA_POR_OMISSAO;
@@ -21,7 +21,7 @@ public class Automovel {
         this.matricula = matricula;
         this.marca = marca;
         this.cilindrada = cilindrada;
-        totalAutomoveis++;
+        totalAutomoveis++; //contador de instancias, sempre que se cria um objeto
     }
     public Automovel(String matricula, String marca) {
         this.matricula = matricula;
