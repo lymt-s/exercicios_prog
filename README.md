@@ -7,3 +7,5 @@ Repositório com resolução de exercícios de PROG II.
 - **Ficha 02:** [acesso à resolução](src/ficha02);
 - **Ficha 03:** [acesso à resolução](src/ficha03);
 - **Ficha 04:** [acesso à resolução](src/ficha04).
+
+**Sara Lourenço**
