@@ -42,8 +42,12 @@ public class MainTributaveis {
         tributaveis.add(m1);
 
         // Mostra o total de impostos
-        double totalImpostos = tributaveis.stream().mapToDouble(Imposto::calculaImposto).sum();
+        double totalImpostos = 0;
+        for (Imposto i : tributaveis) {
+            totalImpostos += i.calculaImposto();
+        }
         System.out.println("\nTotal de impostos: " + totalImpostos + "€");
+
 
         // Imprime o imposto de cada objeto
         for (Imposto i : tributaveis) {
